@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-pylog setuptools module.
+py2log setuptools module.
 """
 
 from setuptools import setup, find_packages
