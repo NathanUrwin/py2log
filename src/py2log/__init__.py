@@ -16,7 +16,7 @@ except ImportError:
 TRACE = 5
 
 
-def configure(level=None, config=None, name=None, force=True):
+def configure(config=None, force=True, level=None, name=None):
     """
     Function that configures the python standard library logging package.
 
@@ -64,7 +64,7 @@ def configure(level=None, config=None, name=None, force=True):
                     },
                     "file": {
                         "class": "logging.FileHandler",
-                        "filename": "pysdm.log",
+                        "filename": "py2log.log",
                         "formatter": "file",
                         "level": 10,
                         "mode": "w",
