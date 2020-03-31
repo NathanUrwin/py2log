@@ -1,1 +1,2 @@
+-i https://pypi.org/simple/
 colorlog==4.0.2
